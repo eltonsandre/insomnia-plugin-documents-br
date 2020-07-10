@@ -1,6 +1,6 @@
 {
     "name": "insomnia-plugin-documents-br",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "main.js",
     "private": false,
     "insomnia": {
