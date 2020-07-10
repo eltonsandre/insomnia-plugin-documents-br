@@ -1,0 +1,41 @@
+{
+    "name": "insomnia-plugin-documents-br",
+    "version": "1.0.0",
+    "main": "main.js",
+    "private": false,
+    "insomnia": {
+        "name": "documents-br",
+        "description": "Gerador de documentos Brasileiro. [Atenção] Os dados gerados aqui são dados 'mockados' e deve ser usados por conta e risco, sem compromisso ao desenvolvedor. Pull request serão bem vindas! ",
+        "images": {
+            "icon": "icon.png"
+        },
+        "publisher": {
+            "name": "eltonsandre",
+            "icon": "https://avatars1.githubusercontent.com/u/6819216"
+        },
+        "applications": {
+            "core": "*"
+        }
+    },
+    "repository": "https://github.com/eltonsandre/insomnia-plugin-documents-br",
+    "license": "Apache",
+    "homepage": "https://github.com/eltonsandre/insomnia-plugin-documents-br#readme",
+    "bugs": {
+        "url": "https://github.com/eltonsandre/insomnia-plugin-documents-br/issues"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    },
+    "keywords": [
+        "insomnia",
+        "plugin",
+        "plugins",
+        "br",
+        "brazil",
+        "brasil",
+        "cpf",
+        "cpnj",
+        "documents",
+        "generator"
+    ]
+}
