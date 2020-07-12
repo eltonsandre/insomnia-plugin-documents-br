@@ -1,46 +1,63 @@
 {
-    "name": "insomnia-plugin-documents-br",
-    "version": "1.1.0",
-    "main": "main.js",
-    "private": false,
-
-    "insomnia": {
-        "name": "documents-br",
-        "description": "Gerador de documentos Brasileiro. [Atenção] Os dados gerados aqui são dados 'mockados' e deve ser usados por conta e risco, sem compromisso ao desenvolvedor. Pull request serão bem vindas! ",
-        "images": {
-            "icon": "icon.png"
-        },
-        "publisher": {
-            "name": "eltonsandre",
-            "icon": "https://avatars1.githubusercontent.com/u/6819216"
-        },
-        "applications": {
-            "core": "*"
-        }
+  "name": "insomnia-plugin-documents-br",
+  "version": "1.2.0",
+  "main": "main.js",
+  "private": false,
+  "description": "Gerador de documentos Brasileiro. (Nome | CPF | CNPJ | telefone | cep)",
+  "insomnia": {
+    "name": "documents-br",
+    "displayName": "Documentos Brasil",
+    "description": "Gerador de documentos Brasileiro. Nome|CPF|CNFJ|telefone|cep",
+    "images": {
+      "icon": "icon.png"
     },
-
-    "license": "Apache",
-    "repository": "https://github.com/eltonsandre/insomnia-plugin-documents-br",
-    "homepage": "https://github.com/eltonsandre/insomnia-plugin-documents-br#readme",
-    "bugs": {
-        "url": "https://github.com/eltonsandre/insomnia-plugin-documents-br/issues"
+    "publisher": {
+      "name": "eltonsandre",
+      "icon": "https://avatars1.githubusercontent.com/u/6819216"
     },
-
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com/"
-    },
-
-    "keywords": [
-        "plugins",
-        "plugin",
-        "insomnia-plugin",
-        "insomnia",
-        "br",
-        "brazil",
-        "brasil",
-        "cpf",
-        "cpnj",
-        "documents",
-        "generator"
-    ]
+    "applications": {
+      "core": "*"
+    }
+  },
+  "license": "Apache",
+  "repository": "https://github.com/eltonsandre/insomnia-plugin-documents-br",
+  "homepage": "https://github.com/eltonsandre/insomnia-plugin-documents-br#readme",
+  "bugs": {
+    "url": "https://github.com/eltonsandre/insomnia-plugin-documents-br/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "scripts": {
+    "precommit": "lint-staged",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.2",
+    "lint-staged": "^3.4.2"
+  },
+  "dependencies": {},
+  "keywords": [
+    "plugins",
+    "plugin",
+    "insomnia-plugin",
+    "insomnia",
+    "br",
+    "brazil",
+    "brasil",
+    "cpf",
+    "cpnj",
+    "documentos",
+    "cep",
+    "nome",
+    "telefone",
+    "documents",
+    "generator",
+    "generador",
+    "fake",
+    "teste",
+    "massa",
+    "stub",
+    "mock"
+  ]
 }
