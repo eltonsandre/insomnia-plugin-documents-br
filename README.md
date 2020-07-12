@@ -9,7 +9,7 @@ O plugin tem a finalidade de gerar documentos e alguns dados mais usados, o foco
 
 🚀️ Quer ajudar a evoluir o plugin? Pull request serão bem vindas!😄
 
-[![Video You tube demonstração](./preview.png)](https://www.youtube.com/watch?v=fWlzqOl6PmM "Vídeo de demonstração")
+[![Video You tube demonstração](./preview.gif)](https://www.youtube.com/watch?v=fWlzqOl6PmM "Vídeo de demonstração")
 
 ⚠️ **Atenção** ⚠️
 
