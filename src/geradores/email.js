@@ -13,13 +13,13 @@ module.exports = {
         },
         {
             displayName: 'Número random após o prefixo',
-            description: 'Adiciona um número randômico apóa o prefixo no username',
+            description: 'Adiciona um número randômico após o prefixo no username',
             type: 'boolean',
             defaultValue: true
         },
         {
             displayName: 'Range número random início',
-            description: 'Adiciona um número randômico apóa o prefixo no username',
+            description: 'Adiciona um número randômico após o prefixo no username',
             type: 'number',
             defaultValue: 1
         },
