@@ -5,6 +5,7 @@
 O plugin tem a finalidade de gerar documentos e alguns dados mais usados, o foco é para dados do Brasil.
 
 - **Nome Sobrenome**
+- **Nome Empresarial**
 - **CPF**
 - **CNPJ**
 - **Telefone**
