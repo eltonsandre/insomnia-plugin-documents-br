@@ -81,6 +81,6 @@ module.exports = {
       tipoEmpresa = TIPOS_EMPRESAS[RandomUtils.getRandomInt(0, (TIPOS_EMPRESAS.length - 1))];
     }
 
-    return `${nomeEmpresa} ${setorEmpresa} - ${tipoEmpresa}`;
+    return `${nomeEmpresa} ${setorEmpresa} ${tipoEmpresa}`;
   }
 }
