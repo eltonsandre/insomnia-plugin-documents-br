@@ -1,9 +1,9 @@
 {
+  "version": "1.3.0",
   "name": "insomnia-plugin-documents-br",
-  "version": "1.2.0",
   "main": "main.js",
-  "private": false,
   "description": "Gerador de documentos Brasileiro. (Nome | CPF | CNPJ | telefone | cep)",
+  "private": false,
   "insomnia": {
     "name": "documents-br",
     "displayName": "Documentos Brasil",
@@ -36,7 +36,9 @@
     "coveralls": "^3.0.2",
     "lint-staged": "^3.4.2"
   },
-  "dependencies": {},
+  "dependencies": {
+    "moment": "^2.29.4"
+  },
   "keywords": [
     "plugins",
     "plugin",
@@ -51,6 +53,7 @@
     "cep",
     "nome",
     "telefone",
+    "empresa",
     "documents",
     "generator",
     "generador",
