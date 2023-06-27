@@ -7,4 +7,5 @@ module.exports.templateTags = [
     require('./src/gerador/cpf'),
     require('./src/gerador/cnpj'),
     require('./src/gerador/data'),
+    require('./src/gerador/valores-random'),
 ];
