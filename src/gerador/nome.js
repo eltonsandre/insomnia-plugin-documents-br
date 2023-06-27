@@ -53,7 +53,7 @@ const NOMES_MASCULINO = [
 
 module.exports = {
     name: 'gerarNome',
-    displayName: 'nome',
+    displayName: 'Nome completo',
     description: 'Gera um nome aleatório seguido por paramentros',
     args: [
         {

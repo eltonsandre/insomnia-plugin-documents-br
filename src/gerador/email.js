@@ -2,7 +2,7 @@ const RandomUtils = require('../utils/RandomUtils');
 
 module.exports = {
     name: 'gerarEmail',
-    displayName: 'email',
+    displayName: 'Email',
     description: 'Gera um e-mail aleatório seguido por paramentros',
     args: [
         {
@@ -43,7 +43,9 @@ module.exports = {
         },
 
     ],
+
     async run(context, prefixo, random, de, ate, sufixo, dominio) {
         return `${prefixo}${random ? RandomUtils.getRandomInt(de, ate) : ""}${sufixo}@${dominio}`;
     }
+
 }
