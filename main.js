@@ -8,5 +8,8 @@ module.exports.templateTags = [
     require('./src/gerador/cnpj'),
     require('./src/gerador/data'),
     require('./src/gerador/valores-random'),
-    require('./src/gerador/endereco'),
+    require('./src/gerador/bairro'),
+    require('./src/gerador/cidade'),
+    require('./src/gerador/estados'),
+    require('./src/gerador/logradouro'),
 ];
