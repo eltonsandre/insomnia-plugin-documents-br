@@ -1,28 +1,34 @@
-name: Publish to npm
+name: Release and Publish
 
 on:
   push:
-    branches:
-      - main
     tags:
-      - "*"
+      - "v*.*.*" # Executa apenas em tags de versão, ex: v1.0.0
 
 jobs:
-  publish:
+  release:
+    name: Create Release and Publish to NPM
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: 16
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-      - run: npm i
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20.x"
+          registry-url: "https://registry.npmjs.org"
+
+      - name: Install dependencies
+        run: npm install
 
       - name: Publish to npm
-        run: |
-          npm config set //registry.npmjs.org/:_authToken ${NPM_TOKEN}
-          npm publish --ignore-scripts
-
+        run: npm publish
         env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          generate_release_notes: true
