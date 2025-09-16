@@ -10,6 +10,10 @@ O plugin tem a finalidade de gerar documentos e alguns dados mais usados, o foco
 - **CNPJ**
 - **Telefone**
 - **E-mail**
+- **Logradouro**
+- **Bairro**
+- **Cidade**
+- **Estado**
 
 🚀️ Quer ajudar a evoluir o plugin? Pull request serão bem vindas!😄
 
